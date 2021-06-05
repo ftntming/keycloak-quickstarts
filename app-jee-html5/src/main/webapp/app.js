@@ -15,7 +15,9 @@
  * limitations under the License.
  */
 var keycloak = new Keycloak();
-var serviceUrl = 'http://127.0.0.1:8080/service'
+
+// service-nodejs is at port 3000
+var serviceUrl = 'http://127.0.0.1:3000/service'
 
 function notAuthenticated() {
     document.getElementById('not-authenticated').style.display = 'block';
